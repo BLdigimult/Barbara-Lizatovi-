@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Barbara Lizatović – multimedijski elementi</title>
-    <link rel="stylesheet" href="style.css"> <!-- style.css je u istoj mapi kao i ovaj HTML -->
+  <meta charset="UTF-8">
+  <title>Barbara Lizatović – multimedija</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Multimedija</h1>
 
-    <h1>Multimedija</h1>
+  <h2>Fotografije:</h2>
+  <img src="../Slika1html.jpeg" width="300" alt="Slika 1">
+  <img src="../Slika2html.jpeg" width="300" alt="Slika 2">
 
-    <h2>Ovo su dvije moje fotografije:</h2>
-    <img src="../Slika1html.jpeg" width="300" alt="Moja slika 1" />
-    <img src="../Slika2html.jpeg" width="300" alt="Moja slika 2" />
+  <h2>Video:</h2>
+  <video width="400" controls>
+    <source src="../videoHTML.mp4" type="video/mp4">
+  </video>
 
-    <h2>Ovo je moj video s vježbi:</h2>
-    <video width="400" controls>
-        <source src="../videoHTML.mp4" type="video/mp4">
-        Vaš preglednik ne podržava video tag.
-    </video>
+  <h2>Audio:</h2>
+  <audio controls>
+    <source src="../ZvukHTML.mp3" type="audio/mp3">
+  </audio>
 
-    <h2>Smiješni video s YouTube-a:</h2>
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/GU0Q_oBNDgU"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-    </iframe>
-
-    <h2>Ovo je audio zapis (mp3) otvaranja vrećice sira:</h2>
-    <audio controls>
-        <source src="../ZvukHTML.mp3" type="audio/mp3">
-        Vaš preglednik ne podržava audio tag.
-    </audio>
-
+  <h2>YouTube video:</h2>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/GU0Q_oBNDgU"
+    title="YouTube video"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
 </body>
 </html>
