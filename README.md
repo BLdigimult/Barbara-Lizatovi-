@@ -1,2 +1,2 @@
-# Barbara-Lizatovi-
+# Barbara-Lizatovic
 Zadaća 
